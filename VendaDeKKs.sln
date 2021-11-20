@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "VendaDeKKs", "..\..\..\..\Desktop\Projeto\VendaDeKKs\", "{36C0D307-1364-407B-BC5B-1DDDA1E0DAAA}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{5ADDA1A8-6FF4-4506-9FFB-D2ED9D1463CD}|DAO.dll;{925765E5-D674-4C35-820D-B8D73FE19EDD}|DTO.dll;{E8955415-CF35-4001-8DAF-110598FC9947}|BLL.dll;{3CB540E0-AAEF-4E77-97DD-4DE7BB8CF467}|Conexao.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/VendaDeKKs"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\Desktop\Projeto\VendaDeKKs\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\VendaDeKKs\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/VendaDeKKs"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\Desktop\Projeto\VendaDeKKs\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\VendaDeKKs\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "59296"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTO", "DTO\DTO.csproj", "{925765E5-D674-4C35-820D-B8D73FE19EDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{E8955415-CF35-4001-8DAF-110598FC9947}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAO", "DAO\DAO.csproj", "{5ADDA1A8-6FF4-4506-9FFB-D2ED9D1463CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conexao", "Conexao\Conexao.csproj", "{3CB540E0-AAEF-4E77-97DD-4DE7BB8CF467}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36C0D307-1364-407B-BC5B-1DDDA1E0DAAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36C0D307-1364-407B-BC5B-1DDDA1E0DAAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36C0D307-1364-407B-BC5B-1DDDA1E0DAAA}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{36C0D307-1364-407B-BC5B-1DDDA1E0DAAA}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{925765E5-D674-4C35-820D-B8D73FE19EDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{925765E5-D674-4C35-820D-B8D73FE19EDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{925765E5-D674-4C35-820D-B8D73FE19EDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{925765E5-D674-4C35-820D-B8D73FE19EDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8955415-CF35-4001-8DAF-110598FC9947}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8955415-CF35-4001-8DAF-110598FC9947}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8955415-CF35-4001-8DAF-110598FC9947}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8955415-CF35-4001-8DAF-110598FC9947}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ADDA1A8-6FF4-4506-9FFB-D2ED9D1463CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ADDA1A8-6FF4-4506-9FFB-D2ED9D1463CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ADDA1A8-6FF4-4506-9FFB-D2ED9D1463CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ADDA1A8-6FF4-4506-9FFB-D2ED9D1463CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CB540E0-AAEF-4E77-97DD-4DE7BB8CF467}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CB540E0-AAEF-4E77-97DD-4DE7BB8CF467}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CB540E0-AAEF-4E77-97DD-4DE7BB8CF467}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CB540E0-AAEF-4E77-97DD-4DE7BB8CF467}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
